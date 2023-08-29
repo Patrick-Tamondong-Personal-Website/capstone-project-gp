@@ -61,7 +61,7 @@ describe('GET "/"', () => {
 })
 
 describe('GET "/:id"', () => {
-    test('GET "/:id" returns given pet', async () => {
+    test('GET "/:id" returns given product', async () => {
         const res = await requestWithSupertest.get('/products/1')
         expect(res.status).toEqual(200)
         expect(res.type).toEqual(expect.stringContaining('json'))
@@ -81,7 +81,7 @@ describe('GET "/:id"', () => {
                 createdAt: date,  
                 modifiedAt:"",  
                 deletedAt:"" 
-             },
+             }
         )
     })
 })
@@ -141,7 +141,8 @@ describe('POST "/"', () => {
             createdAt: date,  
             modifiedAt:"",  
             deletedAt:"" 
-         },)
+         })
+
         expect(res.status).toEqual(200)
         expect(res.type).toEqual(expect.stringContaining('json'))
         expect(res.body).toEqual({      
@@ -159,7 +160,7 @@ describe('POST "/"', () => {
             createdAt: date,  
             modifiedAt:"",  
             deletedAt:"" 
-         },)
+         })
     })
 })
 

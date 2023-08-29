@@ -31,7 +31,7 @@ export const editItem = (id:number, data:Product) => {
     }
 }
 
-export const addItem = (data) => {
+export const addItem = (data: any) => {
     try {  
         const newProduct = { id: db.products.length + 1, ...data }
         db.products.push(newProduct)
