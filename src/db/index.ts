@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize-typescript";
-import { config, dialect } from "../config/db.config";
-import Test from "./models/test.model";
+import { config, dialect } from "../config/db.config.ts";
+import Test from "./models/test.model.ts";
 
 class Database {
   public sequelize: Sequelize | undefined;
