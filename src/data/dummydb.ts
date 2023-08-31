@@ -37,10 +37,10 @@ const db = {
             deletedAt:"" 
          },
          {      
-            id: 3,         
+            id: 2,         
             name: 'Quantum Space Destructor XS',        
             price: 5000000000,    
-            description: 'Destroy the Space-Time Continuum in Quantum Level', 
+            description: 'Destroy the Space-Time Continuum at the Quantum Level. This minified versions affect range is shy of 100km', 
             image: "string",      
             SKU:"X834VW6T0",          
             categoryId: 100,  

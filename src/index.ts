@@ -8,6 +8,7 @@ import swaggerJSDoc from 'swagger-jsdoc/';
 
 import v1Router from './api/v1';
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -51,3 +52,4 @@ app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
     
 })
+

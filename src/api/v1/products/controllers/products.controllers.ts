@@ -6,7 +6,8 @@ export const getProduct = (req:Request, res:Response) => {
     try {
         const resp = getItem(parseInt(req.params.id))
         res.status(200).json(resp)
-
+        console.log(resp);
+        
     } catch (err) {
         res.status(500).send(err)
     }
@@ -16,7 +17,7 @@ export const listProducts = (req:Request, res:Response) => {
     try {
         const resp = listItems()
         res.status(200).json(resp)
-
+        console.log(resp);
     } catch (err) {
         res.status(500).send(err)
     }

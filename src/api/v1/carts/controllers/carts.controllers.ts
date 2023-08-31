@@ -1,10 +1,10 @@
 import { Request, Response } from 'express'
 
-import { getItem, listItems, editItem, addItem, deleteItem } from '../models/products.models'
+import { getItem, listItems, editItem, addItem, deleteItem } from '../models/carts.models'
 
-export const getCart = (req:Request, res:Response) => {
+export const getCart = (_req:Request, res:Response) => {
     try {
-        const resp = getItem(parseInt(req.params.id))
+        const resp = getItem()
         res.status(200).json(resp)
 
     } catch (err) {
@@ -12,7 +12,7 @@ export const getCart = (req:Request, res:Response) => {
     }
 }
 
-export const listCarts = (req:Request, res:Response) => {
+export const listCarts = (_req:Request, res:Response) => {
     try {
         const resp = listItems()
         res.status(200).json(resp)
@@ -22,9 +22,9 @@ export const listCarts = (req:Request, res:Response) => {
     }
 }
 
-export const editCart = (req:Request, res:Response) => {
+export const editCart = (_req:Request, res:Response) => {
     try {
-        const resp = editItem(parseInt(req.params.id), req.body)
+        const resp = editItem()
         res.status(200).json(resp)
 
     } catch (err) {
@@ -32,9 +32,9 @@ export const editCart = (req:Request, res:Response) => {
     }
 }
 
-export const addCart = (req:Request, res:Response) => {
+export const addCart = (_req:Request, res:Response) => {
     try {
-        const resp = addItem(req.body)
+        const resp = addItem()
         res.status(200).json(resp)
 
     } catch (err) {
@@ -42,9 +42,9 @@ export const addCart = (req:Request, res:Response) => {
     }
 }
 
-export const deleteCart = (req:Request, res:Response) => {
+export const deleteCart = (_req:Request, res:Response) => {
     try {
-        const resp = deleteItem(parseInt(req.params.id))
+        const resp = deleteItem()
         res.status(200).json(resp)
 
     } catch (err) {

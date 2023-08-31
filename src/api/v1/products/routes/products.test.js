@@ -20,7 +20,7 @@ describe('GET "/"', () => {
                   rate: 4.5,    
                   count: 160982     
                 },
-                createdAt: date,  
+                createdAt:expect.any,  
                 modifiedAt:"",  
                 deletedAt:""  
              },
@@ -44,7 +44,7 @@ describe('GET "/"', () => {
                 id: 2,         
                 name: 'Quantum Space Destructor XS',        
                 price: 5000000000,    
-                description: 'Destroy the Space-Time Continuum in Quantum Level', 
+                description: 'Destroy the Space-Time Continuum at the Quantum Level. This minified versions affect range is shy of 100km', 
                 image: "string",      
                 SKU:"X834VW6T0",          
                 categoryId: 100,  

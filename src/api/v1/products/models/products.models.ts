@@ -1,17 +1,27 @@
-import db from '../../../../db/dummydb'
+import db from '../../../../data/dummydb'
 import Product from '../../../../types/Product.type'
-export const getItem = (id:number) => {
+import client from '../../../../db/client'
+
+export const getItem = async (id:number) => {
     try {
-        const product = db?.products?.filter(product => product?.id === id)[0]
+        const product = await client.product.findUniqueOrThrow({
+            where:{
+                id:id
+            }
+        })
+        console.log(product);
         return product
     } catch (err) {
         console.log('Error', err)
     }
 }
 
-export const listItems = () => {
+export const listItems = async () => {
     try {
-        return db?.products
+        const products = await client.product.findMany()
+        console.log(products);
+        
+        return products
     } catch (err) {
         console.log('Error', err)
     }
