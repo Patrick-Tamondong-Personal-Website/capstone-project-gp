@@ -29,11 +29,13 @@ export const listItems = async () => {
 
 export const editItem = (id:number, data:Product) => {
     try {
-        const products = await client.product.create({
-            data:{
-                
-            }
-        })    
+        const index = db.products.findIndex(product => product.id === id)
+
+        if (index === -1) throw new Error('Product not found')
+        else {
+            db.products[index] = data
+            return db.products[index]
+        }        
     } catch (err) {
         console.log('Error', err)
     }
