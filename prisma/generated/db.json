@@ -1,0 +1,195 @@
+{
+  "undefined": [
+    {
+      "id": 46514,
+      "productName": "Quo molestias dolore sunt saepe dolore.",
+      "productDesc": "Est nemo laudantium expedita.",
+      "shortDesc": "Nisi dolor cum libero porro dolorum nemo quidem.",
+      "grade": "G",
+      "sku": "Deleniti earum deserunt deleniti recusandae iusto.",
+      "size": "Fugiat dolorem aut dolor quas nostrum dolore.",
+      "weightUnit": "Explicabo ad sed rem blanditiis nisi voluptatum modi velit rem.",
+      "isActive": false,
+      "availableForSale": false,
+      "slug": "Maiores mollitia quam doloribus consequatur.",
+      "imageUrl": "Minima recusandae maiores.",
+      "createdAt": "2023-01-06T05:27:27.354Z",
+      "updatedAt": "2023-09-02T20:45:39.569Z",
+      "categoryId": 18839
+    },
+    {
+      "id": 28900,
+      "categoryName": "Nisi hic sapiente quo itaque hic non sapiente dolorum culpa.",
+      "categoryDesc": "Voluptatem eius impedit cupiditate excepturi rerum similique velit ex dolore.",
+      "slug": "Mollitia incidunt fugit nesciunt fugiat vitae.",
+      "createdAt": "2023-06-13T17:49:36.918Z",
+      "updatedAt": "2023-09-02T19:41:31.654Z",
+      "parentCategoryId": 28437
+    },
+    {
+      "id": 1715,
+      "quantity": 69066,
+      "reStockLevel": 61090,
+      "status": "Deserunt accusamus est voluptatem.",
+      "createdAt": "2022-11-15T03:04:19.588Z",
+      "updatedAt": "2023-09-02T10:51:41.651Z",
+      "productId": 34398
+    },
+    {
+      "id": 27042,
+      "imageUrl": "Placeat quibusdam eaque ea recusandae reiciendis consequuntur veritatis repellat.",
+      "productId": 70384,
+      "createdAt": "2022-12-29T11:41:58.330Z",
+      "updatedAt": "2023-09-02T19:51:23.626Z"
+    },
+    {
+      "id": 10552,
+      "email": "Mylene_Kovacek75@hotmail.com",
+      "createdAt": "2023-06-27T08:56:56.820Z",
+      "updatedAt": "2023-09-02T08:28:40.530Z"
+    },
+    {
+      "id": "Dolorem repudiandae tempore ipsam sint voluptatem provident.",
+      "username": "Forrest",
+      "hashedPassword": "Nisi molestias et tenetur quasi animi ipsam necessitatibus eligendi.",
+      "failedAttempts": 78758,
+      "lockoutTime": "2072-08-19T00:46:27.370Z",
+      "lastLogin": "2073-05-10T14:45:56.466Z",
+      "userId": 84308
+    },
+    {
+      "id": 22593,
+      "token": "Porro suscipit aspernatur quas illum fugiat est aut sed.",
+      "expiry": "2054-07-19T18:00:42.575Z",
+      "userId": 1610
+    },
+    {
+      "id": 34707,
+      "firstName": "Sequi fugiat dolor adipisci id.",
+      "lastName": "Eveniet repellendus minima impedit sit aliquid iusto.",
+      "phone": "Inventore excepturi temporibus quos laudantium culpa et quibusdam.",
+      "birthDate": "2003-09-15T07:32:42.046Z",
+      "gender": "Necessitatibus at officia cupiditate reprehenderit quibusdam iste nihil molestias.",
+      "photo": "Porro labore eaque quis quas.",
+      "bio": "Minus voluptas doloribus rem.",
+      "userId": 79722
+    },
+    {
+      "id": 38690,
+      "userProfileId": 87346,
+      "addressId": 89175
+    },
+    {
+      "id": 6403,
+      "street": "Necessitatibus pariatur culpa recusandae ducimus fuga.",
+      "unit": "In asperiores debitis numquam quam provident id beatae repudiandae debitis.",
+      "city": "Dolorem nobis est aut.",
+      "zipcode": "Id natus quaerat iusto consectetur hic et accusamus.",
+      "state": "Et quidem dignissimos vero nemo dicta iusto eum numquam alias.",
+      "country": "Fugit dolores quod eos pariatur asperiores ex doloribus quos blanditiis."
+    },
+    {
+      "id": 22672,
+      "userProfileId": 71385,
+      "socialProvider": "Repellat nobis quod exercitationem quasi delectus.",
+      "socialUrl": "Neque accusamus illum optio et nesciunt necessitatibus nostrum quibusdam nemo."
+    },
+    {
+      "id": 57407,
+      "title": "Assistant",
+      "message": "Necessitatibus architecto harum nisi adipisci inventore animi doloremque corrupti quos.",
+      "rating": 94614,
+      "authorId": 92030,
+      "productId": 11911
+    },
+    {
+      "id": 10559,
+      "categoryId": 44797,
+      "promotionId": 39412
+    },
+    {
+      "id": 24659,
+      "promotionName": "Assumenda corporis provident ratione quis.",
+      "promotionDesc": "Adipisci dolorem laudantium quibusdam exercitationem est beatae consequatur.",
+      "promotionRate": 9080,
+      "isActive": false,
+      "startDate": "2099-09-16T12:26:03.852Z",
+      "endDate": "2065-04-27T12:25:42.124Z",
+      "createdAt": "2023-06-11T19:15:43.478Z"
+    },
+    {
+      "id": 83372,
+      "cartId": 53794,
+      "productId": 46576,
+      "quantity": 4663,
+      "promotionId": 6948
+    },
+    {
+      "id": 7839,
+      "userId": 98107
+    },
+    {
+      "id": "Doloremque aliquam temporibus nostrum alias dolore.",
+      "status": "Delivered",
+      "createdAt": "2023-05-15T09:11:41.953Z",
+      "userId": 50754
+    },
+    {
+      "id": 13344,
+      "orderId": "Dolorum odit corrupti ducimus illo officia possimus.",
+      "productId": 35644,
+      "quantity": 61941
+    },
+    {
+      "id": 13441,
+      "billingAddressId": 55020,
+      "orderId": "Saepe perspiciatis eius ducimus omnis error."
+    },
+    {
+      "id": 47502,
+      "paymentType": "CREDIT"
+    },
+    {
+      "id": 70355,
+      "userId": 20053,
+      "paymentDetailId": 74498,
+      "paymentOptionId": 74796,
+      "cardProvider": "Occaecati officia optio laudantium officiis sequi magni quos.",
+      "nameOnCard": "Jodie",
+      "isDefault": false
+    },
+    {
+      "id": 95856,
+      "estimatedArrival": "2069-08-03T15:04:45.789Z",
+      "shippingAddressId": 51845,
+      "shippingMethodId": 7893,
+      "orderId": "Officiis aspernatur vero ipsam quas reiciendis placeat dolorem odio architecto."
+    },
+    {
+      "id": 59720,
+      "name": "Darion"
+    },
+    {
+      "id": "Tempora dolore consequatur enim soluta saepe perspiciatis."
+    },
+    {
+      "id": 29444,
+      "userId": 58107,
+      "roleId": 75040
+    },
+    {
+      "id": 24436,
+      "name": "Name"
+    },
+    {
+      "id": 72747,
+      "roleId": 24452,
+      "permissionId": 32177
+    },
+    {
+      "id": 41713,
+      "resource": "Tempora modi dolores fugiat doloribus animi perspiciatis explicabo amet recusandae.",
+      "accessType": "DELETE"
+    }
+  ]
+}

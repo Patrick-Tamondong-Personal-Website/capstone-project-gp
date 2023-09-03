@@ -6,10 +6,12 @@ const db = {
     products:[
         {     
             id: 0,        
-            name: "Big Badda Boom",       
+            productName: "Big Badda Boom",       
+            productDesc: "Your target is hiding on a planet? No problem. Just, Blow the whole thing up", 
+            shortDesc:"",
+            grade:""
             price: 100000000000,      
-            description: "Your target is hiding on a planet? No problem. Just, Blow the whole thing up", 
-            image: "string",
+            image: "Big-Badda-Boom.png",
             SKU:"X509k840",      
             categoryId: 100,
             rateId:{ 
