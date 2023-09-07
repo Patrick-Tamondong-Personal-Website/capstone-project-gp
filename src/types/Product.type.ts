@@ -49,6 +49,7 @@ export default interface Product {
   weight?: number,
   weightUnit?: string,
   slug?: string,
+  imageUrl?: string,
   features?: object,
   orderDetail:[],
   cartItem:[],
